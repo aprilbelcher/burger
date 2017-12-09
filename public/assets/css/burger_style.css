@@ -1,0 +1,50 @@
+body {
+	background: #201f1f;
+	font-family: 'Cormorant Garamond', serif;
+  color: #EA9632;
+  font-size: 20px;
+}
+
+#burger-img {
+	max-width: 100px;
+  display: inline;
+}
+
+.logo {
+  margin: 20px;
+}
+
+.create-burger {
+  float: none;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.burger-list {
+  margin-left: 100px;
+  margin-top: 50px;
+  max-height: 500px;
+  overflow-y:auto;
+}
+
+#burger-header {
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+  color: #4bdd26;
+  display: inline;
+}
+
+.burger-btn {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#devoured-text {
+	color: #30302e;
+	background-color: #f8f5f0
+}
+
+.not-devoured-list, .devoured-list {
+	max-height: 600px;
+	overflow-y:auto;
+}
