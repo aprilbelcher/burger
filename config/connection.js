@@ -2,9 +2,10 @@ var mysql = require('mysql');
 
 require('dotenv').config();
 
-if (process.env.CLEARDB_DATABASE_URL) {
-    var connection = mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
+if (process.env.JAWSDB_URL) {
+    var connection = mysql.createConnection(process.env.JAWSDB_URL);
 }
+
 else
 {
     var connection = mysql.createConnection({
